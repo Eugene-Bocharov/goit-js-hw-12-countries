@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-left: 125px;
+  padding-right: 125px;
+  padding-top: 25px;
+}
+
+.search_input {
+  border: 3px solid #584d4d;
+  height: 50px;
+  width: 100%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+  padding-left: 20px;
+  border-radius: 10px;
+  color: #584d4d;
+  position: relative;
+}
+
+.country_list {
+  /* background-color: rgb(123, 123, 123); */
+  max-width: 1200px;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 50px;
+  border-radius: 10px;
+  display: flex;
+  /* justify-content: space-around; */
+  flex-wrap: wrap;
+}
+
+.card {
+  margin-left: 0;
+  padding-left: 0;
+  margin-right: 15px;
+  border-radius: 10px;
+  max-width: 250px;
+  margin-top: 15px;
+}
+
+img {
+  border-radius: 10px;
+}
+.col-6 {
+  flex: 0 0 auto;
+  width: 30%;
+}
+
+.alert {
+  display: none;
+}
+
+.alert_active {
+  animation-name: hundo;
+  animation-duration: 0.5s;
+  height: 100px;
+  width: 700px;
+  background-color: #d30b0b;
+  border-radius: 10px;
+  position: absolute;
+  top: 2.5%;
+  left: 25%;
+}
+
+.alert_text {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 17px;
+}
+
+
+.option_list{}
+
+
+@keyframes null {
+  0% {
+    opacity: 100%;
+  }
+
+  100% {
+    opacity: 0%;
+  }
+}
+
+@keyframes hundo {
+  0% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
